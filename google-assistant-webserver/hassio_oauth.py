@@ -53,6 +53,7 @@ class oauth2Site(object):
             client_id=self.user_data['client_id'],
             client_secret=self.user_data['client_secret'],
             scopes=self.oauth2.scope
+            code_verifier=AW5APtUM4JCv1zV4i374AW5AP6YujtUM4JCv1zV4i3
         )
 
         # write credentials json file
